@@ -1,6 +1,4 @@
-/* **************************
-HTML Elements 
-************************** */
+
 html {
     position: relative;
 }
@@ -28,11 +26,6 @@ h2 {
     font-size: 1.3em;
 }
 
-/* **************************
-Layout 
-************************** */
-
-/* Header */
 header {
     width: 100%;
     height: auto;
@@ -46,7 +39,6 @@ header .container {
 }
 
 .name, .nav {
-    /* I hate floats, so I avoid them whenever I can */
     display: inline-block;
     vertical-align: middle;
     margin: 0;
@@ -99,12 +91,11 @@ header .container {
 }
 
 .nav ul li+li {
-    /* See https://www.jackreichert.com/2011/07/how-to-add-a-divider-between-menu-items-in-css-using-only-one-selector/ */
+   
     border-left: 1px solid #cccccc;
 }
 
 
-/* Main Content Area */
 .content {
     width: 960px;
     clear: both;
@@ -141,7 +132,7 @@ img.headshot {
     height: 200px;
 }
 
-/* Portfolio Page */
+
 .portfolio-item {
     display: inline-block;
     position: relative;
@@ -164,7 +155,7 @@ img.headshot {
     z-index: 1000;
 }
 
-/* Contact Page */
+
 .contact {
     width: 540px;
 }
@@ -206,7 +197,7 @@ img.headshot {
     padding: 1em 2em;
     font-size: 1em;
 }
-/* Sidebar */
+
 .sidebar {
     display: inline-block;
     width: 190px;
@@ -241,7 +232,7 @@ img.headshot {
     height: auto;
 }
 
-/* Footer */
+
 footer {
     position: absolute;
     left: 0;
